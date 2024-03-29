@@ -1,0 +1,39 @@
+.page__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1232px;
+}
+.page__item{
+  display: flex;
+  gap: 60px;
+}
+.page__img{
+  width: 331px;
+}
+.page__block{
+  color: rgb(54, 55, 56);
+font-family: Exo 2;
+font-size: 48px;
+font-weight: 600;
+text-align: left;
+margin-top: 55px;
+margin-bottom: 40px;
+}
+.page__link{
+  color: rgb(54, 55, 56);
+font-family: Exo 2;
+font-size: 20px;
+font-weight: 600;
+  margin-bottom: 30px;
+}
+.page__link:hover{
+  text-decoration: underline 2px #FFCE50;
+}
+.page__text{
+  color: rgb(107, 107, 108);
+font-family: PT Sans;
+font-size: 16px;
+font-weight: 400;
+}

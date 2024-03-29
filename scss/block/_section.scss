@@ -1,0 +1,141 @@
+.block__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1239px;
+}
+.block__img{
+  max-width: 393px;
+}
+.block__item{
+  max-width: 393px;
+  border-radius: 10px;
+box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+background: rgb(255, 255, 255);
+}
+.block__title{
+  color: rgb(54, 55, 56);
+font-family: Exo 2;
+font-size: 48px;
+font-weight: 600;
+margin-top: 20px;
+margin-bottom: 24px;
+}
+.block__text{
+  color: rgb(107, 107, 108);
+font-family: PT Sans;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 54px;
+}
+.title__block{
+  color: rgb(54, 55, 56);
+font-family: Exo 2;
+font-size: 20px;
+font-weight: 600;
+margin-top: 24px;
+}
+.text__block{
+  color: rgb(107, 107, 108);
+font-family: PT Sans;
+font-size: 16px;
+font-weight: 400;
+margin-top: 16px;
+}
+.block__outline{
+  color: rgb(54, 55, 56);
+font-family: Exo 2;
+font-size: 16px;
+font-weight: 600;
+margin-top: 20px;
+}
+
+
+
+
+@media only screen and (max-width:1190px){
+  .block__item{
+    max-width:373px;
+  }
+}
+@media only screen and (max-width:1137px) {
+  .block__item{
+    max-width: 358px;
+  }
+}
+@media only screen and (max-width:1087px) {
+  .block__item{
+    max-width: 343px;
+  }
+}
+@media only screen and (max-width:1042px) {
+  .block__item{
+    max-width: 328px;
+  }
+}
+@media only screen and (max-width:997px) {
+  .block__item{
+    max-width: 313px;
+  }
+}
+@media only screen and (max-width:951px) {
+  .block__item{
+    max-width:298px;
+    
+  }
+}
+@media only screen and (max-width:907px) {
+  .block__item{
+    max-width: 283px;
+  }
+}
+@media only screen and (max-width:861px) {
+  .block__item{
+    max-width: 268px;
+  }
+}
+@media only screen and (max-width:816px) {
+  .block__item{
+    max-width: 253px;
+  }
+}
+@media only screen and (max-width:771px) {
+  .block__item{
+    max-width: 238px;
+  }
+}
+@media only screen and (max-width:725px) {
+  .block__item{
+    max-width:223px ;
+  }
+}
+@media only screen and (max-width:682px) {
+  .block__item{
+    max-width:208px;
+  }
+}
+@media only screen and (max-width:638px) {
+  .block__item{
+    max-width:193px ;
+  }
+}
+@media only screen and (max-width:592px) {
+  .block__item{
+    max-width: 178px;
+  }
+}
+@media only screen and (max-width:546px) {
+  .block__item{
+    max-width: 410px;
+  }
+}
+
+
+
+@media only screen and (max-width:512px) {
+  .block__list{
+    max-width: 510px;
+    flex-direction: column;
+  }
+}
