@@ -1,0 +1,51 @@
+.timeline__item{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.timeline__title{
+  color: rgb(54, 55, 56);
+font-family: Exo 2;
+font-size: 48px;
+font-weight: 600;
+line-height: 125%;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 80px;
+margin-bottom: 60px;
+}
+.timeline__text{
+  color: rgb(107, 107, 108);
+font-family: PT Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 8px;
+}
+.timeline__tittle{
+  color: rgb(54, 55, 56);
+font-family: Exo 2;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 8px;
+}
+.timeline__img{
+  width: 28px;
+  height: 28px;
+  margin-top: 18px;
+}
+.timeline__imgg{
+  width: 28px;
+  height: 17.76px;
+  margin-top: 18px;
+}
+.timeline__immg{
+  width: 23.3px;
+  height: 32px;
+  margin-top: 18px;
+}

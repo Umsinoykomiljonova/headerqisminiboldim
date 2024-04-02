@@ -93,8 +93,14 @@ text-decoration: underline 2px solid #FFCE50;
     width: 490px;
   }
 }
-@media only screen and (max-width:482px) {
+@media only screen and (max-width:483px) {
   .people__item{
     max-width: 467px;
+  }
+  .people__titlee{
+    font-size: 18px;
+  }
+  .people__text{
+    font-size: 14px;
   }
 }
