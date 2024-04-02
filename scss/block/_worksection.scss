@@ -1,0 +1,31 @@
+.work__list{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.work__title{
+  color: rgb(54, 55, 56);
+font-family: Exo 2;
+font-size: 44px;
+font-weight: 600;
+}
+.work__titlee{
+  color: rgb(54, 55, 56);
+font-family: Exo 2;
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+margin-bottom: 14px;
+}
+.work__img{
+  width: 70px;
+  margin-bottom: 24px;
+}
+.work__item{
+  width: 225px;
+  text-align: center;
+  align-items: center;
+}
